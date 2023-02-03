@@ -14,6 +14,12 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiVuedotjs,
+  SiMaterialui,
+  SiMysql,
+  SiOpengl,
+  SiBootstrap,
+  SiBlender,
+
 } from "react-icons/si";
 
 function Techstack() {
@@ -35,7 +41,7 @@ function Techstack() {
         <SiVuedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiMaterialui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -47,7 +53,16 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpengl />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBlender />
       </Col>
     </Row>
   );
